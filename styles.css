@@ -9,65 +9,66 @@ body {
 }
 
 #header {
-    padding-top: 32px;
-    height: 50px;
+    padding: 32px 10px 10px 10px;
+    min-height: 38px;
     margin: 10px 0px 10px 0px;
     background: #ebebeb;
 }
 
 #nav {
-    padding-top: 32px;
-    height: 50px;
+    padding: 32px 10px 10px 10px;
+    min-height: 38px;
     margin: 10px 0px 20px 0px;
     background: #ebebeb;
 }
 
 #section {
     background: #ebebeb;
-    width: 495px;
-    padding-top: 32px;
-    height: 268px;
+    width: 475px;
+    padding: 22px 10px 0px 10px;
+    min-height: 268px;
     margin:0px 20px 20px 0px;
     float: left;
 }
 
 #article {
-    padding-top: 20px;
+    padding: 20px 10px 20px 10px;
     color: #ebebeb;
-    height: 170px;
-    margin: 47px 10px 10px 10px;
+    min-height: 170px;
+    margin: 37px 10px 10px 10px;
     background: #777;
 }
 
 h1 {
-    padding-top: 15px;
-    height: 35px;
+    padding: 15px 10px 10px 10px;
+    min-height: 25px;
     background: #ebebeb;
     font-size: 22px;
     color: #777;
-    margin: 20px 20px 10px 20px;
+    margin: 39px 20px 10px 20px;
 }
 
 p {
-    padding-top: 15px;
-    height: 35px;
+    padding: 15px 10px 10px 10px;
+    min-height: 25px;
     background: #ebebeb;
     color: #777;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 #aside {
-    padding-top: 32px;
+    padding: 22px 10px 10px 10px;
     float: left;
-    width: 445px;
-    height: 268px;
+    width: 425px;
+    min-height: 268px;
     background: #ebebeb;
+    margin-bottom: 20px;
 }
 
 #footer {
-    padding-top: 32px;
+    padding: 32px 10px 10px 10px;
     clear: both;
-    height: 50px;
+    min-height: 38px;
     background: #ebebeb;
 }
 
@@ -76,22 +77,3 @@ p {
     display: block;
     clear: both;
 }
-
-/* . Your CSS should have styles for each of the following elements:
-   * Body
-     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-     * color: '#777'
-     * background: '#777'
-     * width: '960px'
-     * font-size: '18px'
-   * Header, Nav, Section, Aside, and Footer
-     * background: '#ebebeb'
-   * Article
-     * color: '#ebebeb',
-     * background: '#777'
-   * h1 and p
-     * color: '#777',
-     * background: '#ebebeb'
-3. The widths of each section should be:
-   * section: 495px */
-
